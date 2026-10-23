@@ -65,7 +65,8 @@ active-directory-lab/
 │
 ├── README.md                           <-- Project overview & phase walkthrough
 ├── scripts/
-│   └── ApexInfrastructure.ps1          <-- Phase 4 migration & remediation script
+├── Populate-ApexInfrastructure.ps1   <-- Primary Script: Creates 5 OUs, AGDLP Groups & 150 Users directly in Apex
+└── Remediate-MisplacedUsers.ps1     <-- Secondary / Bonus Script: Demonstrates corrective migration capabilities
 └── images/
     ├── phase1-hyperv-virtual-switch.png
     ├── phase1-vm-configuration.png
